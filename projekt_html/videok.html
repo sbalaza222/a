@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu-hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--a weblapokon használt ikonok-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--css framework-->
+    <link rel="stylesheet" href="css/global.css"> <!--golbális css, egységes stílus a weblapok között-->
+    <script src="js/navi.js"></script> <!--navigációs bár reszponzivitása-->
+    <script src="js/videok.js"></script><!--beépített videólejátszó-->
+    <title>Videos</title>
+</head>
+<body>
+    <header>
+        <div class="navi" id="navibar"> <!--navigációs bár-->
+            <a href="oneletrajz.html">Önéletrajz</a>
+            <a href="orarend.html">Órarend</a>
+            <a href="galeria.html">Galéria</a>
+            <a href="videok.html">Videók</a>
+            <a href="sakk.html">Sakk</a>
+            <a href="javascript:void(0);" class="icon" onclick="navButton()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header> 
+        <div class="w3-container content">
+            <h1>Videó galéria</h1>
+            <iframe id="embed" width="560" height="315" src="https://www.youtube.com/embed/DNF_OfLo9h4?si=T7Qw24Vuza-8RZwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <button onclick="swap()" class="w3-button w3-teal w3-xlarge">----></button>
+        </div>
+</body>
+</html>

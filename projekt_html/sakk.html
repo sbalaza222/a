@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu-hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--a weblapokon használt ikonok-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--css framework-->
+    <link rel="stylesheet" href="css/global.css"> <!--golbális css, egységes stílus a weblapok között-->
+    <script src="js/navi.js"></script> <!--navigációs bár reszponzivitása-->
+    <style>
+        table {
+            justify-content: center;
+            align-items: center;
+            margin: auto auto;
+            text-align: center;
+        }
+        td{
+            height: 50pt;
+            width: 50pt;
+            font-weight: bold;
+        }
+        .w{
+            background-color: #eeeeee;
+            font-size: 300%;
+        }
+        .d{
+            background: #aaaaaa;
+            font-size: 300%;
+        }
+    </style>
+    <title>Sakk</title>
+</head>
+<body>
+    <header>
+        <div class="navi" id="navibar"> <!--navigációs bár-->
+            <a href="oneletrajz.html">Önéletrajz</a>
+            <a href="orarend.html">Órarend</a>
+            <a href="galeria.html">Galéria</a>
+            <a href="videok.html">Videók</a>
+            <a href="sakk.html">Sakk</a>
+            <a href="javascript:void(0);" class="icon" onclick="navButton()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header> 
+        <div class="w3-container content">
+            <h1>Sakk</h1>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>a</td><td>b</td><td>c</td><td>d</td>
+                    <td>e</td><td>f</td><td>g</td><td>h</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="w">♜</td><td class="d">♞</td><td class="w">♝</td><td class="d">♛	</td>
+                    <td class="w">♚</td><td class="d">♝</td><td class="w">♞</td><td class="d">♜</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="d">♟︎</td><td class="w">♟︎</td><td class="d">♟︎</td><td class="w">♟︎</td>
+                    <td class="d">♟︎</td><td class="w">♟︎</td><td class="d">♟︎</td><td class="w">♟︎</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="w"></td><td class="d"></td><td class="w"></td><td class="d"></td>
+                    <td class="w"></td><td class="d"></td><td class="w"></td><td class="d"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="d"></td><td class="w"></td><td class="d"></td><td class="w"></td>
+                    <td class="d"></td><td class="w"></td><td class="d"></td><td class="w"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="w"></td><td class="d"></td><td class="w"></td><td class="d"></td>
+                    <td class="w"></td><td class="d"></td><td class="w"></td><td class="d"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="d"></td><td class="w"></td><td class="d"></td><td class="w"></td>
+                    <td class="d"></td><td class="w"></td><td class="d"></td><td class="w"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="w">♙</td><td class="d">♙</td><td class="w">♙</td><td class="d">♙</td>
+                    <td class="w">♙</td><td class="d">♙</td><td class="w">♙</td><td class="d">♙</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="d">♖</td><td class="w">♘</td><td class="d">♗</td><td class="w">♕</td>
+                    <td class="d">♔</td><td class="w">♗</td><td class="d">♘</td><td class="w">♖</td>
+                </tr>
+            </table>
+        </div>    
+</body>
+</html>
